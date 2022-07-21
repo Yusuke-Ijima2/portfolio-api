@@ -53,3 +53,8 @@ production:
   username: <%= ENV['APP_DATABASE_USERNAME'] %>
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
   host: <%= ENV['APP_DATABASE_HOST'] %>
+# heroku setting
+# heroku config:add APP_DATABASE='heroku_f80e79564d6be85'
+# heroku config:add APP_DATABASE_USERNAME='b583bb375fac42'
+# heroku config:add APP_DATABASE_PASSWORD='02b5f5f8'
+# heroku config:add APP_DATABASE_HOST='us-cdbr-east-06.cleardb.net'

@@ -1,7 +1,5 @@
 FROM ruby:2.7
 
-# ENV RAILS_ENV=production
-
 WORKDIR /app
 RUN apt-get update -qq \
   && apt-get install -y nodejs default-mysql-client
