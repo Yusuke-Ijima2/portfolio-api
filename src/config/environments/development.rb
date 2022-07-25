@@ -53,4 +53,7 @@ Rails.application.configure do
 
   # localhost:3000では通信に失敗するためhostをdocker-compose.ymlのコンテナ名に合わせる
   config.hosts.clear
+
+  # device setting
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3001 }
 end
