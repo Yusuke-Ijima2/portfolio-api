@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = 'a8cbaeca3c553c73c5fffad48d18242c1013b45b2da8e84524303aa03be43822c687d354f585f56392fdd2a5dc60789851a8a1ea6e863e56ad586ce143a565f2'
+  # config.secret_key = 'cf20a10ef335a81f3a81683db05927a3085e8111c072b6afa42bc1eb1e241cb1efcc8043a1fd5aff4fae8611d5f17495429bab563ae5a1f436a76e29357032d1'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '2455c37645bc0d5da27404e6ba4368dca932c65fbbc795e169e59d91ca6727281f649c04eb64e2cc79eeff50abfa9ca5e2fad81f590daf8966f120f7174ed811'
+  # config.pepper = 'b7c63a90a5e4dbd1ae0f99836767b53bcb26cf9c00ecaa5ca9d3fc509f4f586ce80abd1b78c061e7bb80896f1679a7c5e143878d14ca772911f0244f4c955da8'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -164,7 +164,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :rememberable
   # The time the user will be remembered without asking for credentials again.
-  config.remember_for = 1.weeks
+  # config.remember_for = 2.weeks
 
   # Invalidates all the remember me tokens when the user signs out.
   config.expire_all_remember_me_on_sign_out = true
