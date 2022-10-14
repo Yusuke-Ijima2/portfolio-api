@@ -2,7 +2,7 @@ module Api
 	module V1 
 	# 上記２つがないと間に/api/vi/が入らない
 	  class UsersController < ApplicationController
-		before_action :current_api_v1_user, only: %i[show update destroy] #before_action :current_userでuserの情報をとってくる
+		# before_action :current_api_v1_user, only: %i[show update destroy] #before_action :current_userでuserの情報をとってくる
 		# before_action :authenticate_api_v1_user!
   
 		def index
