@@ -1,0 +1,2 @@
+class ScrapingUrl < ApplicationRecord
+end
